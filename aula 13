@@ -1,0 +1,13 @@
+const nome= "Roberta";
+const sobrenome = "Miranda de Assis";
+const idade = 41; 
+const peso = 72;
+const altura = 1.70;
+let imc = ((altura * altura)/peso);
+let nascimento;
+let anoNasc = (2020 - idade);
+
+
+console.log(nome, sobrenome, "tem", idade, "de idade, pesa ", peso, " kg, tem ", altura, " de altura e seu IMC é de ", imc, ", seu ano de nascimento é ", anoNasc);
+
+
